@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.menu-col{
+  display: flex !important;
+  background-color: #239B56;
+}
+
+.menu-col-submenu{
+  vertical-align: middle !important;
+}
+
+.col-middle{
+  display: flex !important;
+  justify-content: center;
+}
+
+.contenedor-mapa{
+  width: auto !important;
+  height: auto !important;
+}
+
+.google-maps {
+  position: relative !important;
+  padding-bottom: 75% !important; 
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+.google-maps iframe {
+position: absolute !important;
+top: 0 !important;
+left: 0 !important;
+width: 100% !important;
+height: 100% !important;
+}
+
+.direccion-caja-busqueda{
+  width: 320px;
+}
+
+.ant-table table{
+  font-size: 12px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div[role="button"], div[draggable="false"], button[draggable="false"], div[class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom"], .gm-svpc{
+  font-size: 10px !important;
+  width: 25px !important;
+  padding: 0px !important;
+  right: 0px !important;
+}
+
+div[draggable="false"], button[draggable="false"]{
+  padding-right: 0px !important;
+}
+
+.footer-style{
+  background-color: #145A32   !important;
+  text-align: center;
+}
+
+.ant-table-thead > tr > th{
+  background-color: #229954 !important;
+  color: white !important;
+}
+
+.ant-table-tbody{
+  background-color: #A9DFBF;
+}
+
+.content-style{
+  background-color: #E9F7EF   !important; 
+}
+
+@media only screen and (max-width: 500px) {
+  .direccion-caja-busqueda{
+    width: 170px;
+    font-size: 10px;
+  }
+
+  .ant-table table{
+    font-size: 9px !important;
+  }
+
+  #root > section > main > div > div > div.ant-row > div:nth-child(1) > ul{
+    font-size: 10px;
+  }
+}
