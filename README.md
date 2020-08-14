@@ -1,2 +1,2 @@
 # AppEcoRecicla
-Your solution to reciclar non-usable stuff, finding people that need it
+Your solution for recycle non-usable stuff, finding people that need it
